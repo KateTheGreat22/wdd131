@@ -7,6 +7,14 @@
     border:black;
 }
 
+.dark h1,
+.dark p,
+.dark li {
+    color: white;
+}
+body.dark{
+    background-color: #333;
+}
 h1{
     font-size: 40px;
     align-items: center;
@@ -35,6 +43,10 @@ h2{
        
 }
 
+.dark h2 {
+color: #69b3e4;
+}
+
 p{
     padding-top: 20px;
     align-items: left;
@@ -47,6 +59,13 @@ p{
     padding-left: 1em;
 }
 .logo{
+    padding-top: 30px;
+    width: 150px;
+    align-items: center;
+    padding-left: 230px;
+}
+
+.dark .logo{
     padding-top: 30px;
     width: 150px;
     align-items: center;
